@@ -1,0 +1,285 @@
+*{padding: 0;
+  margin: 0;
+  font-family: "微软雅黑";
+  list-style: none;
+}
+body{
+	overflow-x: hidden;
+	position: relative;
+}
+.beijing{
+	background: url(../img/two/bj.png) no-repeat;
+	width: 1920px;
+	height: 2100px;
+	margin: 0 auto;
+}
+header{
+	width: 1920px;
+	height: 36px;
+	background:#333333;
+	margin: 0 auto;
+}
+a{
+	text-decoration: none;
+}
+.keshi1{
+	width: 1200px;
+	margin: 0 auto;
+}
+.keshi1 .a1,.keshi1 .you a{
+	font-size: 14px;
+	color: #999999;
+	line-height: 36px;
+}
+.keshi1 a:hover{
+	color: white;
+}
+.keshi1 .you{
+	float: right;
+}
+.keshi1 .you li a{
+	margin-left: 10px;
+}
+.daohang{
+	width: 1920px;
+	height: 90px;
+	background: white;
+	margin:0 auto;
+	z-index: 1;
+	box-shadow: 0px 5px 10px rgba(0,0,0,0.1);
+}
+.daohangn{
+	width: 1200px;
+	height: 90px;
+	margin: 0 auto;
+}
+.daohangzhanwei{
+	width: 1920px;
+	height: 90px;
+	margin: 0 auto;
+}
+.logo{
+	margin-top: 20px;
+	float: left;
+}
+.daohang ul{
+	width: 800px;
+	line-height: 90px;
+	text-align: center;
+	position: relative;
+	left: 50px;
+}
+.daohang ul li{
+	float: left;
+	margin-left: 15px;
+}
+.daohang ul li a{
+	padding-bottom: 5px;
+	color: #333333;
+}
+.daohang ul li a:hover{
+	color: #d10001;
+}
+.daohangn p{
+	line-height: 90px;
+	float:right;
+}
+.daohangn p input{
+	width: 256px;
+	background: none;
+	border-top: none;
+	border-left: none;
+	border-right: none;
+	border-bottom: 1px solid black;
+	outline: none;
+}
+.tishi{
+	width: 1200px;
+	height: 46px;
+	line-height: 46px;
+	margin: 0 auto;
+	color: #666666;
+}
+.zhong{
+	width: 1200px;
+	height: 1800px;
+	background: white;
+	margin: 0 auto;
+	border-radius: 5px;
+	margin-bottom: 30px;
+}
+.zhong ul{
+	margin-left: 71px;
+}
+.fenlei{
+	width: 1100px;
+	height: 22px;
+}
+.zhong .fenlei li{
+	float: left;
+	height: 22px;
+	text-align: center;
+	line-height: 22px;
+	width: 60px;
+	color: #666666;
+	cursor: pointer;
+}
+.zhong .fenlei .wu:hover{
+	background: #D10001;
+	color: white;
+	border-radius: 3px;
+}
+.fenlei input{
+	width: 70px;
+	height: 22px;
+	border: #dddddd 1px solid;
+}
+.fenlei .qued{
+	background: #D10001;
+	margin-left: 30px;
+}
+.dabuju{
+	
+	margin-top: 2px;
+}
+.dabuju li{
+	margin-right: 46px;
+	width: 230px;
+	height: 360px;
+	float: left;
+	cursor: pointer;
+	margin-top: 44px;
+	
+}
+.dabuju .shang{
+	position: relative;
+	width: 230px;
+	height: 230px;
+}
+.dabuju .ha{
+	width: 228px;
+	height: 129px;
+	border-bottom: 1px solid #DDDDDD;
+	border-left: 1px solid #DDDDDD;
+	border-right: 1px solid #DDDDDD;
+	text-align: center;
+	position: relative;
+}
+.dabuju .juedi{
+	font-size: 20px;
+	font-weight: 600;
+	padding-top: 16px;
+}
+.dabuju .rexiao{
+	background: #D10001;
+	width: 30px;
+	height: 16px;
+	color: white;
+	font-size: 12px;
+	position: absolute;
+	right: 42px;
+	top: 4px;
+}
+.dabuju .qian{
+	color: #D10001;
+	font-weight: 600;
+}
+.dabuju .qian span{
+	font-size: 24px;
+}
+.dabuju .xian{
+	height: 1px;
+	width: 190px;
+	background: #DDDDDD;
+	margin: 10px 19px;
+}
+.dabuju .slg{
+	color: #999999;
+}
+.dabuju .zhezhao{
+	opacity: 0;
+	position: absolute;
+	width: 230px;
+	height: 230px;
+	background: rgba(0,0,0,0.5);
+	top: 0;
+	transition: 0.3s;
+}
+.zhezhao .anniu{
+	margin: 0 auto;
+	margin-top: 90px;
+	width: 124px;
+	height: 32px;
+	border-radius: 3px;
+	background: #D10001;
+	color: white;
+	text-align: center;
+	line-height: 32px;
+}
+.zhezhao .guanzhu{
+	margin: 0 auto;
+	width: 56px;
+	line-height: 30px;
+	height: 30px;
+}
+.zhezhao .guanzhu img{
+	float: left;
+	margin-top: 8px;
+	margin-right: 2px;
+}
+.zhezhao p{
+	color: #f6f6f6;
+}
+.dabuju li:hover .zhezhao{
+	opacity: 1;
+	transition: 0.3s;
+}
+.fanyew{
+	float: left;
+	
+	margin-left:390px;;
+}
+.fanye li{
+	margin-top: 30px;
+	float: left;
+	width: 30px;
+	height: 30px;
+	color: #999999;
+	background: #F6F6F6;
+	border-radius: 3px;
+	text-align: center;
+	line-height: 30px;
+	cursor: pointer;
+}
+.fanye li:hover{
+	background: #D10001;
+	color: white;
+}
+footer{
+	width: 1920px;
+	height: 110px;
+	background: black;
+	margin: 0 auto;
+}
+.footern{
+	color: #999999;
+	width: 1200px;
+	height: 110px;
+	background: black;
+	margin: 0 auto;
+}
+.footern ul{
+	width: 1200px;
+	height: 50px;
+	margin-left: 130px;
+}
+.footern ul li{
+	margin-top: 14px;
+	float: left;
+	margin-left: 30px;
+	cursor: pointer;
+}
+.footern p{
+	margin-left: 152px;
+	float: left;
+}
